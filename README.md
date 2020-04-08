@@ -39,7 +39,8 @@ as $K$ ,$V$, and$Q$, then the attention layer is defined as
 
 <img src="http://latex.codecogs.com/gif.latex?head_i=Attn(QW_i^Q,KW_i^K,VW_i^V)">
 Then we build the multi-head attention function as follows, the $concat$ is the function to concatenate the tensors,
-![](http://latex.codecogs.com/gif.latex?MultH(Q,K,V)=concat(head_1,...,head_i)W^O)
+
+<img src="http://latex.codecogs.com/gif.latex?MultH(Q,K,V)=concat(head_1,...,head_i)W^O)"/>
 
 
 ## Experiments & Comparison
