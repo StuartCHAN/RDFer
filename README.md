@@ -47,7 +47,7 @@ $$MultH(Q,K,V)=concat(head_1,...,head_i)W^O$$
 ### Results
 
 Recently, the initial training stage (43 batches) is displayed as the plotting below, where denotes the loss values:
-![loss_plot](./dataset/model/SmoothNLP/2020_03_25_13_07_03.png)
+![loss_plot](./dataset/model/RDFer/2020_03_25_13_07_03.png)
 
 ### Comparison 
 
@@ -88,7 +88,7 @@ This command will automatically generate the files below in path `./dataset/`:
 ### Training
 
 ```bash
->python config.py --train=true  --model_name=SmoothNLP  --batch_size=62  --num_iter=100  --learning_rate=0.01  
+>python config.py --train=true  --model_name=RDFer  --batch_size=62  --num_iter=100  --learning_rate=0.01  
 ```
 
 The terminal log is like this previous standard output [record](./log.txt):
