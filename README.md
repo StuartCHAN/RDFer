@@ -35,11 +35,11 @@ And the target output is expected as a list of tokens, where the punctuations se
 We use the general design of attention layer from the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762) [1], denoting the $Key$, $Value$, and$Query$ in the original algorithm 
 as $K$ ,$V$, and$Q$, then the attention layer is defined as 
 
-$$Attn(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V $$
+<img src="http://latex.codecogs.com/gif.latex?Attn(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V "/>
 
-$$ head_i=Attn(QW_i^Q,KW_i^K,VW_i^V)$$
+<img src="http://latex.codecogs.com/gif.latex?head_i=Attn(QW_i^Q,KW_i^K,VW_i^V)">
 Then we build the multi-head attention function as follows, the $concat$ is the function to concatenate the tensors,
-$$MultH(Q,K,V)=concat(head_1,...,head_i)W^O$$
+![](http://latex.codecogs.com/gif.latex?MultH(Q,K,V)=concat(head_1,...,head_i)W^O)
 
 
 ## Experiments & Comparison
