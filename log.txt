@@ -1,0 +1,536 @@
+* -- Begining model with cpu -- *
+
+
+ Initiating dataset from raw files... 
+
+
+ SRC number of tokens:  2116  TGT number of tokens:  2214  
+
+2116 2214
+ Dataset loader ready, begin training. 
+
+
+ Dataset loader length is  119 , save model every batch. 
+
+
+  - Epoch  1  | batch  0 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 7.976774215698242
+
+
+  - Epoch  1  | batch  1 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 6.059077262878418
+
+
+  - Epoch  1  | batch  2 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 5.165829181671143
+
+
+  - Epoch  1  | batch  3 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 4.122090816497803
+
+
+  - Epoch  1  | batch  4 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 4.019821643829346
+
+
+  - Epoch  1  | batch  5 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.970237970352173
+
+
+  - Epoch  1  | batch  6 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.5508453845977783
+
+
+  - Epoch  1  | batch  7 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.4131290912628174
+
+
+  - Epoch  1  | batch  8 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.202244520187378
+
+
+  - Epoch  1  | batch  9 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.649913787841797
+
+
+  - Epoch  1  | batch  10 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 4.1481099128723145
+
+
+  - Epoch  1  | batch  11 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.7064244747161865
+
+
+  - Epoch  1  | batch  12 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.6901795864105225
+
+
+  - Epoch  1  | batch  13 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.3006134033203125
+
+
+  - Epoch  1  | batch  14 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 4.202221870422363
+
+
+  - Epoch  1  | batch  15 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.0758042335510254
+
+
+  - Epoch  1  | batch  16 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.0835933685302734
+
+
+  - Epoch  1  | batch  17 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.2640466690063477
+
+
+  - Epoch  1  | batch  18 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.1307168006896973
+
+
+  - Epoch  1  | batch  19 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.539198160171509
+
+
+  - Epoch  1  | batch  20 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.51712965965271
+
+
+  - Epoch  1  | batch  21 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.7343413829803467
+
+
+  - Epoch  1  | batch  22 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 4.121004581451416
+
+
+  - Epoch  1  | batch  23 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.4076530933380127
+
+
+  - Epoch  1  | batch  24 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.5618927478790283
+
+
+  - Epoch  1  | batch  25 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.7176923751831055
+
+
+  - Epoch  1  | batch  26 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.457873582839966
+
+
+  - Epoch  1  | batch  27 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.348397731781006
+
+
+  - Epoch  1  | batch  28 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.7394630908966064
+
+
+  - Epoch  1  | batch  29 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.5689756870269775
+
+
+  - Epoch  1  | batch  30 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.5875442028045654
+
+
+  - Epoch  1  | batch  31 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.309325695037842
+
+
+  - Epoch  1  | batch  32 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.402916193008423
+
+
+  - Epoch  1  | batch  33 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.0539584159851074
+
+
+  - Epoch  1  | batch  34 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.1578314304351807
+
+
+  - Epoch  1  | batch  35 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.607412099838257
+
+
+  - Epoch  1  | batch  36 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.391826868057251
+
+
+  - Epoch  1  | batch  37 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.325335741043091
+
+
+  - Epoch  1  | batch  38 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.3396410942077637
+
+
+  - Epoch  1  | batch  39 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 3.1714603900909424
+
+
+  - Epoch  1  | batch  40 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.8941638469696045
+
+
+  - Epoch  1  | batch  41 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 2.649259328842163
+
+
+  - Epoch  1  | batch  42 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
+0 torch.Size([450, 1, 512])
+1 torch.Size([75, 6])
+ output_gen :  torch.Size([75, 2214, 6])  
+
+ loss: 4.280096530914307
+
+
+  - Epoch  1  | batch  43 
+ | input lenght:    torch.Size([181, 6]) 
+ | target length:    torch.Size([75, 6])  
+
+torch.Size([6, 181, 512])
